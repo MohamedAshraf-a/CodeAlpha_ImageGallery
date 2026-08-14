@@ -249,13 +249,11 @@ let index = 0;
    PAGE LOADER
 ========================= */
 
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
     setTimeout(() => {
-
         loader.classList.add("hide");
-
-    }, 400);
+    }, 500);
 
 });
 
