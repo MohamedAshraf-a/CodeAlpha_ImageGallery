@@ -1,0 +1,256 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Egypt | AlphaCode Task 01</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- Page Loader -->
+    <div id="loader">
+        <div class="spinner"></div>
+        <span>Loading Egypt...</span>
+    </div>
+
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+
+            <a href="#" class="logo">
+                <span>EG</span>
+                Egypt Gallery 
+            </a>
+
+            <div class="nav">
+                <span>AlphaCode Task 01</span>
+                <a href="#gallery">Gallery</a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero">
+
+            <div>
+
+                <small>IMAGE GALLERY ·</small>
+
+                <h1>
+                    Discover
+                    <em>Egypt.</em>
+                </h1>
+
+                <p>
+                    From the ancient pyramids to the streets of Cairo,
+                    explore the places and moments that make Egypt unique.
+                </p>
+
+                <a href="#gallery">
+                    Explore Gallery ↓
+                </a>
+
+            </div>
+
+
+            <figure>
+
+                <div class="image-loading hero-photo">
+
+                    <span class="image-spinner"></span>
+
+                    <img
+                        src="./images/egypt.jpg"
+                        alt="Egypt"
+                    >
+
+                </div>
+
+                <figcaption>
+                    Egypt · Featured
+                </figcaption>
+
+            </figure>
+
+        </section>
+
+
+        <!-- Gallery -->
+        <section id="gallery">
+
+            <div class="heading">
+
+                <div>
+
+                    <small> · COLLECTION</small>
+
+                    <h2>
+                        Stories of Egypt
+                    </h2>
+
+                </div>
+
+                <p>
+                    A visual journey through Egypt's
+                    history, nature and cities.
+                </p>
+
+            </div>
+
+
+            <!-- Filters -->
+            <div class="filters">
+
+                <button class="active" data-filter="all">
+                    All
+                </button>
+
+                <button data-filter="ancient">
+                    Ancient
+                </button>
+
+                <button data-filter="temples">
+                    Temples
+                </button>
+
+                <button data-filter="cairo">
+                    Cairo
+                </button>
+
+                <button data-filter="museums">
+                    Museums
+                </button>
+
+                <button data-filter="nature">
+                    Nature
+                </button>
+
+                <button data-filter="desert">
+                    Desert
+                </button>
+
+                <button data-filter="coast">
+                    Coast
+                </button>
+
+                <button data-filter="cities">
+                    Cities
+                </button>
+
+            </div>
+
+
+            <!-- Gallery Grid -->
+            <div class="grid" id="grid"></div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Lightbox -->
+    <div id="lightbox">
+
+        <button id="close" aria-label="Close">
+            ×
+        </button>
+
+
+        <button id="prev" aria-label="Previous image">
+            ←
+        </button>
+
+
+        <div class="viewer-loading">
+
+            <span class="image-spinner"></span>
+
+            <img
+                id="view"
+                src=""
+                alt=""
+            >
+
+        </div>
+
+
+        <button id="next" aria-label="Next image">
+            →
+        </button>
+
+
+        <div id="info">
+
+            <span id="category"></span>
+
+            <h3 id="title"></h3>
+
+            <small id="count"></small>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+<footer>
+
+    <div class="footer-brand">
+        <span>Egypt.</span>
+
+        <small>
+            AlphaCode Task 01 · Image Gallery · 2026
+        </small>
+    </div>
+
+    <div class="footer-links">
+
+        <a
+            href="https://www.linkedin.com/in/mohamed-ashraf-99b754317/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            LinkedIn
+        </a>
+
+        <a
+            href="https://github.com/MohamedAshraf-a"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            GitHub
+        </a>
+
+        <a
+            href="mailto:mohamedashraf22262@gmail.com"
+        >
+            Gmail
+        </a>
+
+    </div>
+
+</footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
