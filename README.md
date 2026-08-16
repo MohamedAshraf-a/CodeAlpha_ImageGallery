@@ -1,14 +1,22 @@
 # 🇪🇬 CodeAlpha Image Gallery
 
-A responsive and interactive image gallery showcasing the beauty, history, landmarks, and landscapes of Egypt.
+<p align="center">
+  <strong>An interactive journey through the beauty, history, and landmarks of Egypt.</strong>
+</p>
 
-🚀 **[View Live Website](https://mohamedashraf-a.github.io/CodeAlpha_ImageGallery/)**
-
-This project was developed as **Task 01** for the **CodeAlpha Frontend Development Internship**.
+<p align="center">
+  <a href="https://mohamedashraf-a.github.io/CodeAlpha_ImageGallery/">
+    🚀 Live Demo
+  </a>
+  •
+  <a href="https://github.com/MohamedAshraf-a/CodeAlpha_ImageGallery">
+    📂 Repository
+  </a>
+</p>
 
 ---
 
-## 📸 Screenshot
+## 📸 Preview
 
 <p align="center">
   <img src="screenshot.png" alt="CodeAlpha Egypt Image Gallery" width="900">
@@ -16,45 +24,56 @@ This project was developed as **Task 01** for the **CodeAlpha Frontend Developme
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **[Visit the Live Website](https://mohamedashraf-a.github.io/CodeAlpha_ImageGallery/)**
+
+Explore the gallery and discover Egyptian landmarks, historical sites, cities, deserts, and coastlines through an interactive and responsive interface.
+
+---
+
 ## ✨ Features
 
-- 📱 Responsive design for desktop, tablet, and mobile
-- 🇪🇬 Egypt-themed visual design
+- 🇪🇬 Egypt-inspired visual design
+- 📱 Fully responsive layout
 - 🖼️ Interactive image gallery
-- ⏳ Image loading spinners
-- 🔍 Full-screen lightbox
-- ⏮️ Previous / Next image navigation
-- ⌨️ Keyboard navigation using arrow keys
-- ❌ ESC key to close the image viewer
-- 🏺 Image categories and filtering
-- ✨ Smooth transitions and hover effects
-- 🌅 Featured Hero image
+- 🔍 Full-screen image viewer
+- ⏮️ Previous / Next navigation
+- ⌨️ Keyboard controls
+- ❌ ESC key support
+- 🏺 Category-based filtering
+- ⏳ Image loading indicators
+- ✨ Smooth animations and transitions
+- 🌅 Featured hero section
 - 🗺️ 25 Egyptian destinations and landmarks
 - 📱 Mobile-friendly navigation
+- ⚡ Fast and lightweight frontend
 
 ---
 
-## 🏺 Categories
+## 🏺 Explore Egypt
 
-The gallery includes several categories covering different aspects of Egypt:
+The gallery showcases different parts of Egyptian culture, history, and geography.
 
-- 🏛️ Ancient Egypt
-- 🕌 Temples
-- 🏙️ Cairo
-- 🏺 Museums
-- 🌿 Nature
-- 🏜️ Desert
-- 🌊 Coast
-- 🌆 Cities
+| Category | Examples |
+|---|---|
+| 🏛️ Ancient Egypt | Pyramids, Sphinx & Ancient Sites |
+| 🕌 Temples | Luxor & Karnak |
+| 🏙️ Cairo | Cairo landmarks & attractions |
+| 🏺 Museums | Egyptian museums & heritage |
+| 🌿 Nature | Natural landscapes |
+| 🏜️ Desert | Egyptian desert landscapes |
+| 🌊 Coast | Red Sea & Mediterranean |
+| 🌆 Cities | Alexandria, Luxor & more |
 
 ---
 
-## 🛠️ Technologies
+## 🛠️ Built With
 
-- HTML5
-- CSS3
-- JavaScript ES6+
-- Responsive Web Design
+- **HTML5** — Semantic structure
+- **CSS3** — Styling, animations & responsive design
+- **JavaScript ES6+** — Gallery interactions and functionality
+- **Responsive Web Design** — Desktop, tablet & mobile support
 
 ---
 
