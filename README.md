@@ -19,7 +19,7 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="screenshot.png" alt="CodeAlpha Egypt Image Gallery" width="900">
+  <img src="Screenshot.png" alt="CodeAlpha Egypt Image Gallery" width="900">
 </p>
 
 ---
